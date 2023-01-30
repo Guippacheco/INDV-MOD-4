@@ -25,7 +25,7 @@ Script para criar o banco de dados:
 
 4- Criar a tabela: create table cursos ( ID_do_cursoo int primary key, disciplinas varchar(10));
 
-create table turmas ( nome_da_turma varchar(10) primary key, quantidade_de_alunos int);
+create table turmas ( ID_Turma int primary key, quantidade_de_alunos int);
 
 create table alunos ( matricula int primary key, notas int, nome varchar(250), contato varchar(10));
 
